@@ -1,35 +1,40 @@
-ul {
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: sticky;
     top: 0;
     width: 100%;
     box-align: center
+  }
+
+  #navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    display: block;
   }
   
   li {
     float: left;
   }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #4CAF50;
+  #navbar a:hover:not(.active) {
+    background-color: rgb(175, 238, 238);
   }
 
-  title {
-      
+  .sticky {
+    position: fixed;
+    top: 0;
+    width 100%
+    
+  }
+
+  h1 {
+    padding-top: 100px;
   }
