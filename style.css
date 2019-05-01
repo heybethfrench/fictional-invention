@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(109, 109, 109);
     top: 0;
     width: 100%;
-    box-align: center
+    box-align: center;
+    
   }
 
   #navbar a {
@@ -17,15 +18,13 @@
     text-decoration: none;
     float: left;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
   }
   
-  li {
-    float: left;
-  }
-  
-  
-  #navbar a:hover:not(.active) {
-    background-color: rgb(175, 238, 238);
+   #navbar a:hover:not(.active) {
+    background-color: rgb(0, 122, 122);
   }
 
   .sticky {
@@ -36,5 +35,30 @@
   }
 
   h1 {
+    font-family: 'Montserrat', sans-serif;
     padding-top: 100px;
+  
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    margin-left: 40px;
+  }
+
+  p {
+    font-family: 'Playfair Display', serif;
+    margin-right: 50%;
+    margin-left: 40px;
+
+  }
+
+  img {
+    padding: 40px 40px;
+  }
+
+  header {
+    width: 100%;
+    text-align: center;
+    
   }
